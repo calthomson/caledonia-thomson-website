@@ -10,7 +10,7 @@
       </h2>
       <div class="links">
         <a
-          href="www.vegemitesoup.com"
+          href="http://vegemitesoup.com/"
           target="_blank"
           class="button--pink">Blog</a>
         <a
@@ -54,7 +54,7 @@
 
 .portrait {
   border-radius: 50%;
-  max-width: 20%;
+  max-width: 40%;
   height: auto;
 }
 </style>
