@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <img src='~/assets/caledonia-thomson-photo.jpg' class="portrait"/>
+      <img src='/portrait.jpg' class="portrait"/>
       <h1 class="title">
         Caledonia Thomson
       </h1>
