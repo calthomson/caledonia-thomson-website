@@ -1,7 +1,7 @@
 {
   "name": "caledonia-thomson-website",
   "version": "1.0.0",
-  "description": "A personal portfolio website build with Nuxt.js",
+  "description": "A personal portfolio website built with Nuxt.js",
   "author": "CaledoniaThomson@gmail.com",
   "private": true,
   "scripts": {

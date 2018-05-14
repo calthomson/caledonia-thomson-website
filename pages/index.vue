@@ -1,36 +1,26 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
+      <img src='~/assets/caledonia-thomson-photo.jpg' class="portrait"/>
       <h1 class="title">
-        caledonia-thomson-website
+        Caledonia Thomson
       </h1>
       <h2 class="subtitle">
-        A personal portfolio website build with Nuxt.js
+        Software Developer
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="www.vegemitesoup.com"
           target="_blank"
-          class="button--green">Documentation</a>
+          class="button--pink">Blog</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/calthomson"
           target="_blank"
-          class="button--grey">GitHub</a>
+          class="button--orange">GitHub</a>
       </div>
     </div>
   </section>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
 
 <style>
 .container {
@@ -46,19 +36,25 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #313638;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #F06543;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
 
 .links {
   padding-top: 15px;
+}
+
+.portrait {
+  border-radius: 50%;
+  max-width: 20%;
+  height: auto;
 }
 </style>

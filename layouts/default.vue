@@ -21,32 +21,32 @@ html {
   margin: 0;
 }
 
-.button--green {
+.button--pink {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #FE5F55;
+  color: #FE5F55;
   text-decoration: none;
   padding: 10px 30px;
 }
 
-.button--green:hover {
+.button--pink:hover {
   color: #fff;
-  background-color: #3b8070;
+  background-color: #FE5F55;
 }
 
-.button--grey {
+.button--orange {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid #F09D51;
+  color: #F09D51;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
 }
 
-.button--grey:hover {
+.button--orange:hover {
   color: #fff;
-  background-color: #35495e;
+  background-color: #F09D51;
 }
 </style>
