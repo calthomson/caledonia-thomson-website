@@ -12,11 +12,11 @@
         <a
           href="http://vegemitesoup.com/"
           target="_blank"
-          class="button--pink">Blog</a>
+          class="button--blue">GitHub</a>
         <a
           href="https://github.com/calthomson"
           target="_blank"
-          class="button--orange">GitHub</a>
+          class="button--orange">Blog</a>
       </div>
     </div>
   </section>
@@ -29,21 +29,23 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: monospace;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 5em;
   color: #313638;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
-  color: #F06543;
+  font-size: 3em;
+  color: #FE5F55;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
@@ -57,4 +59,15 @@
   max-width: 40%;
   height: auto;
 }
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 4em;
+  }
+
+  .subtitle {
+    font-size: 1.8em;
+  }
+}
+
 </style>

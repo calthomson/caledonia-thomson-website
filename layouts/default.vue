@@ -6,7 +6,7 @@
 
 <style>
 html {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: monospace;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -21,18 +21,18 @@ html {
   margin: 0;
 }
 
-.button--pink {
+.button--blue {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #FE5F55;
-  color: #FE5F55;
+  border: 1px solid #264653;
+  color: #264653;
   text-decoration: none;
   padding: 10px 30px;
 }
 
-.button--pink:hover {
+.button--blue:hover {
   color: #fff;
-  background-color: #FE5F55;
+  background-color: #264653;
 }
 
 .button--orange {
