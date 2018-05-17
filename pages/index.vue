@@ -10,11 +10,11 @@
       </h2>
       <div class="links">
         <a
-          href="http://vegemitesoup.com/"
+          href="https://github.com/calthomson"
           target="_blank"
           class="button--blue">GitHub</a>
         <a
-          href="https://github.com/calthomson"
+          href="http://vegemitesoup.com/"
           target="_blank"
           class="button--orange">Blog</a>
       </div>
@@ -34,6 +34,7 @@
 }
 
 .title {
+  animation: fadeIn 1s ease-in both;
   font-family: monospace;
   display: block;
   font-weight: 300;
@@ -43,6 +44,8 @@
 }
 
 .subtitle {
+  animation: fadeIn 1s ease-in both;
+  animation-delay: .5s;
   font-weight: 300;
   font-size: 3em;
   color: #FE5F55;
@@ -51,13 +54,16 @@
 }
 
 .links {
+  animation: fadeIn 2s ease-in both;
+  animation-delay: .5s;
   padding-top: 15px;
 }
 
 .portrait {
+  animation: fadeInDown 1s ease-in both;
   border-radius: 50%;
-  max-width: 40%;
   height: auto;
+  max-width: 40%;
 }
 
 @media only screen and (max-width: 450px) {
@@ -68,6 +74,26 @@
   .subtitle {
     font-size: 1.8em;
   }
+}
+
+@keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
 }
 
 </style>
